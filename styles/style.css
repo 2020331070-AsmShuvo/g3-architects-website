@@ -20,6 +20,9 @@
     font-weight: 600;
     border: none;
 }
+.dark-gray-text{
+    color: #727272;
+}
 
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -44,7 +47,7 @@ nav ul li a{
     text-align: center;
     font-weight: 500;
 }
-nav h3{
+.section-title{
     color: #2e2d2d;
     text-align: center;
     font-size: 2rem;
@@ -114,7 +117,6 @@ nav h3{
     color: #FF900E
 }
 .teams-content p{
-    color: #727272;
     margin-top: 24px;
     margin-bottom: 32px;
 }
