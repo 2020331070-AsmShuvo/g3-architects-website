@@ -83,21 +83,23 @@ nav h3{
 
 /* section related styles */
 .team-container{
-    max-width: 1320px;
-    margin: 0 auto;
+    max-width: 1400px;
+    margin: 80px auto;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-around;
     align-items: center;
 }
 .teams-content{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     width: 48%;
+    padding-left: 70px;
+    padding-right: 70px;
     
 
 }
 .team-img-container{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     width: 48%;
 }
 .teams-title{
@@ -115,4 +117,41 @@ nav h3{
     color: #727272;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+.team-img-container{
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Media quer here */
+
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+        width: 100%;
+    }
+    nav,
+    .team-container{
+        padding: 20px;
+        flex-direction: column;
+    }
+    nav li{
+        margin: auto;
+    }
+    .team-img-container, .teams-content{
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0px;
+        /* border: 2px dashed red; */
+    }
+    
 }
