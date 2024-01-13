@@ -214,6 +214,10 @@ nav ul li a{
     color: white;
     width: 342px;  
     padding: 40px; 
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 90px;
 }
 .badge h2{
     font-size: 3.5rem;
@@ -248,7 +252,8 @@ nav ul li a{
     }
     nav,
     .team-container, 
-    .sponsors-image-container{
+    .sponsors-image-container,
+    .features{
         padding: 20px;
         flex-direction: column;
     }
@@ -265,7 +270,7 @@ nav ul li a{
         flex-direction: column;
         padding-left: 50px;
     }
-    .card{
+    .facts .card{
         width: 80%;
         height: 80%;
         margin-bottom: 20px;
@@ -284,6 +289,17 @@ nav ul li a{
         padding: 10px;
         margin-bottom: 0px;
     }
+    .feature-img img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .badge{
+        position: static;
+        width: 80%;
+        margin-left: 30px;
+    }
+    
 
 
     
